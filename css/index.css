@@ -15,13 +15,17 @@
     margin: 30px 0 40px 0;
 }
 
+.main-container {
+    margin: 0 3% 0 3%;
+}
 /*
 Tarjetas
 */
 .tarjeta1 {
     margin-top: 21px;
     width: 400px;
-    height: fit-content;
+    height: 450px;
+    border-radius: 20px;
 }
 
 .tarjeta1 > img {
@@ -34,6 +38,29 @@ Tarjetas
     list-style: none;
     margin: 5px 0 10px 15px;
 }
+
+/* Probando anchor o button*/
+.btn-tarjeta > a {
+    color: #FFFFFF;
+    background-color: #DC6421;
+    border: 2px solid #DC6421;
+    padding: 8px 25px 8px 25px;
+    margin: 10px 0 0 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.btn-tarjeta > a:hover {
+    background-color: white;
+    color: #DC6421;
+}
+/*
+Fin
+*/
 
 .btn-tarjeta > button {
     color: #FFFFFF;
@@ -51,13 +78,17 @@ Tarjetas
 .btn-tarjeta > button:hover {
     background-color: white;
     color: #DC6421;
-    border: 2px solid #DC6421;
 }
 
 .items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.postres > .items > .tarjeta1 > img {
+    -webkit-box-shadow: 0px 1px 15px 2px rgba(0,0,0,0.43); 
+box-shadow: 0px 1px 15px 2px rgba(0,0,0,0.43);
 }
 
 /*
