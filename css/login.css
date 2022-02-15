@@ -1,0 +1,33 @@
+body{
+    background-color: #ECE3D0;
+}
+
+.login {
+    width: 300px;
+    height: 300px;
+    background-color: #dbd2bc;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    left: 36%;
+    top: 23%;
+}
+
+h2{
+    margin-top: 55px;
+}
+
+form {
+    margin-top: 25px;
+}
+
+input[type=submit]{
+    background-color: #DC6421;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
