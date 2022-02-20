@@ -55,12 +55,19 @@ body {
 
 @media screen and (max-width: 600px) {
     .top-nav{
-        gap: 5%;
+        justify-content: space-between;
+        gap: 0;
+        margin-right: 3%;
+        font-size: 16px;
     }
 
     #main-container {
         margin-left: 0;
         margin-right: 0;
     } 
+
+    body {
+        font-size: 12px
+    }
 }
 

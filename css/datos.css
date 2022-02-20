@@ -65,7 +65,7 @@ input[type=submit] {
     border-radius: 15px;
     font-size: 20px;
     cursor: pointer;
-    margin-left: 11%;
+    margin-right: 35px;
 }
 
 .tarjeta-grande > p {
@@ -87,21 +87,45 @@ Mobile
     }
 
     #main {
-        width: 92%;
-        height: 98vh;
+        width: 100%;
+        height: 70vh;
         margin: 0;
     }
 
     .tarjeta-grande {
-        background-color: #ECE3D0;
-        position: absolute;
-        left: 1%;
-        width: 800px;
-        height: 500px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 10px;
+        left: 5px;
+        width: 380px;
+        height: 360px;
+    }
+
+    .pedido {
+        height: 250px;
+        width: 150px;
+        margin-left: 2px;
+    }
+
+    .datos{
+        margin-right: 100px;
+    }
+
+    li {
+        font-size: 18px;
+        margin: 10px 0 30px 0;
+    }
+
+    .tarjeta-grande > p {
+        margin: 0 0 15px 0;
+    }
+
+    input[type=text]{
+        width: 87%;
+        margin-bottom: 15px;
+        padding: 8px 0 8px 8px;
+    }
+    
+    input[type=submit] {
+        padding: 3px 10px 4px 10px;
+        font-size: 16px;
+
     }
 }
