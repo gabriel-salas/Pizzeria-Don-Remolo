@@ -35,7 +35,7 @@ ul li{
     list-style: none;
 }
 li {
-margin-bottom: 13%;
+    margin-bottom: 13%;
 }
 
 .pedido {
@@ -70,4 +70,38 @@ input[type=submit] {
 
 .tarjeta-grande > p {
     margin: 0 0 3% 3%;
+}
+
+
+/*
+Mobile
+*/
+
+@media screen and (max-width: 600px) {
+
+    header > div > img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        object-position: 50% 99%;
+    }
+
+    #main {
+        width: 92%;
+        height: 98vh;
+        margin: 0;
+    }
+
+    .tarjeta-grande {
+        background-color: #ECE3D0;
+        position: absolute;
+        left: 1%;
+        width: 800px;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
 }
