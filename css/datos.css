@@ -28,7 +28,7 @@ Tarjeta
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 1%;
 }
 
 ul li{
@@ -81,7 +81,7 @@ Mobile
 
     header > div > img {
         width: 100%;
-        height: 120px;
+        height: 110px;
         object-fit: cover;
         object-position: 50% 99%;
     }
@@ -93,15 +93,14 @@ Mobile
     }
 
     .tarjeta-grande {
-        left: 5px;
-        width: 380px;
+        left: 1%;
+        width: 98%;
         height: 360px;
     }
 
     .pedido {
         height: 250px;
-        width: 150px;
-        margin-left: 2px;
+        width: 30%;
     }
 
     .datos{
