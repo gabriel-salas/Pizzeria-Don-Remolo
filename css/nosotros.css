@@ -29,9 +29,20 @@ h2 {
     margin-top: 10px;
 }
 
-.borde {
+.linea {
     width: 338px;
     height: 2px;
     background-color: black;
 }
 
+/*
+Movil
+*/
+
+@media screen and (max-width: 600px)  {
+    .linea {
+        width: 200px;
+        height: 2px;
+        background-color: black;
+    }
+}
